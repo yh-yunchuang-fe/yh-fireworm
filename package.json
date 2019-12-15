@@ -1,0 +1,29 @@
+{
+  "name": "yh-terms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@123.59.47.88:web/yh-terms.git"
+  },
+  "keywords": [
+    "yh",
+    "terms",
+    "backend"
+  ],
+  "author": "yh-front",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
