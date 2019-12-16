@@ -1,0 +1,25 @@
+@import '../../../base/variable.less';
+
+.yhf-code-view {
+    padding: 15px 15px 10px 20px;
+}
+.ant-table-row {
+    &:hover, &:active {
+        background: fade(@primaryColor, 10%) !important;
+        td {
+            background: fade(@primaryColor, 10%) !important;
+        }
+    }
+}
+.yhf-view {
+    position: relative;
+    .content-copy {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+

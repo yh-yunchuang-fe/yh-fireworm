@@ -1,0 +1,241 @@
+[{
+    "title": "Taro",
+    "description": "一套遵循 React 语法规范的多端统一开发框架, 支持一套代码同时生成 H5 和小程序",
+    "author": "孙海燕",
+    "date": "2019-10-18"
+}, {
+    "title": "Material-UI",
+    "description": "Material-UI是一个实现谷歌Material Design设计原则的React组件库,css采用jss编译",
+    "author": "孙海燕",
+    "date": "2019-10-24"
+}, {
+    "title": "BigPicture",
+    "description": "BigPicture能够同时为图像和视频，提供流畅的动画叠加弹出窗口。它可以与<img>标签和background-image元素一同工作，视频格式 - YouTube、Vimeo 和直接视频链接均可支持",
+    "author": "吴迪",
+    "date": "2019-10-24"
+}, {
+    "title": "React Belle",
+    "description": "React Belle 是一套针对移动端和桌面端都有优化的 React 组件。它的样式可以高度定制，因此你可以配置所有组件通用的基础样式，也可以在每个组件中单独修改样式。https://github.com/nikgraf/belle/",
+    "author": "田梓轩",
+    "date": "2019-10-24"
+}, {
+    "title": "FilePond",
+    "description": "一个 JavaScript 文件上传库。可以拖入上传文件，并且会对图像进行优化以加快上传速度。让用户体验到出色、进度可见、如丝般顺畅的用户体验",
+    "author": "林喆",
+    "date": "2019-10-24"
+}, {
+    "title": "Svelte",
+    "description": "Svelte 是 React、Vue 和 Angular 等 Web 框架的替代方案。Svelte 可用于构建完整的 Web 应用程序。它还能用来创建自定义元素，这些自定义元素可以在使用其他框架实现的已有 Web 应用程序中使用",
+    "author": "孙海燕",
+    "date": "2019-10-25"
+}, {
+    "title": "sucrase",
+    "description": "如果你用typscript构建React项目，sucrase将是一个不错的选着，它的编译速度将是Babel的20倍。sucrase——一款ES6+编译器，重点关注非标准语言，例如Typescript，JSX和Flow",
+    "author": "吴迪",
+    "date": "2019-10-25"
+}, {
+    "title": "Emotion",
+    "description": "Emotion是一款用JavaScript编写css的库，支持字符串和对象两种方式声明CSS变量，如果你在使用React，试用这个库将让你以更加优雅的方式用JavaScript编写CSS",
+    "author": "林喆",
+    "date": "2019-10-25"
+}, {
+    "title": "Docker",
+    "description": "Docker一次构建可放在任何地方就可以运行，不需要进行任何改变DocKer 就类似于一个容器。用于快速配置环境搭建与部署，相比于传统虚拟机，更加轻便与快捷，可随时切换镜像。开发人员共同使用同一个 Docker 镜像，解决不同环境带来的一系列问题",
+    "author": "田梓轩",
+    "date": "2019-10-25"
+}, {
+    "title": "awesome-react-hooks",
+    "description": "包含很多实用react hook的资料库",
+    "author": "孙海燕",
+    "date": "2019-10-31"
+}, {
+    "title": "Lozad",
+    "description": "Lozad.js 是基于 IntersectionObserver API 的轻量级、高性能、可配置的纯 JavaScript并且无依赖的懒加载器，其能够被用于进行图片、iframe 等多种形式的元素",
+    "author": "林喆",
+    "date": "2019-10-31"
+}, {
+    "title": "ScrollOut",
+    "description": "一款帮你制作专业级Scroll滚动效果（滚动视差）的框架，框架大小不到1KB,使用回调的方式将相关动画元素的属性进行实时分配，方便你做出个性化的动态效果",
+    "author": "吴迪",
+    "date": "2019-10-31"
+}, {
+    "title": "vue-next",
+    "description": "vue 3.0版本，目前是pre-alpha状态",
+    "author": "孙海燕",
+    "date": "2019-11-01"
+}, {
+    "title": "SVGR",
+    "description": "svgr是一个将SVG转换为React组件的工具，svgr由JavaScript实现。整个文档也非常的小，已开源在github上",
+    "author": "吴迪",
+    "date": "2019-11-01"
+}, {
+    "title": "react-smooth-dnd",
+    "description": "一款拖拽页面元素的React工具，拖拽效果平滑，让你轻松就能实现卡片、列表、表单组件的的拖拽",
+    "author": "林喆",
+    "date": "2019-11-01"
+}, {
+    "title": "ElementUI",
+    "description": "Element UI 是一套采用 Vue 2.0 作为基础框架实现的组件库，它面向企业级的后台应用，能够帮助你快速地搭建网站，极大地减少研发的人力与时间成本。可以进行二次封装，方便企业制定自己的ui库",
+    "author": "田梓轩",
+    "date": "2019-11-01"
+}, {
+    "title": "React-zmage",
+    "description": "一个基于React的可缩放图片控件，您可以用这个控件代替原生的img标签，令其附带图片的缩放功能。方便使用只需要把img标签替换成Zmage。还可以传入一系列图片来显示一系列幻灯片，可以为任意元素绑定一个事件来直接显示一个不存在的图片",
+    "author": "孙海燕",
+    "date": "2019-11-02"
+}, {
+    "title": "Enzyme",
+    "description": "Enzyme是一个基于React而构建的轻量级测试库，可以作为用于React的JavaScript测试实用程序。这也使得断言、操纵和遍历React组件输出的任务变得更容易",
+    "author": "林喆",
+    "date": "2019-11-07"
+}, {
+    "title": "Initab",
+    "description": "一款为开发人员定制打造的工作台，通过谷歌浏览器插件安装即可使用，通过此工作台你可以轻松订阅你感兴趣的git项目、跟进相关问题、pull相关操作，查看版本历史，订阅Stack Overflow相关的内容，管理查看Gists相关内容，可以说一个主流技术平台聚合工作台",
+    "author": "吴迪",
+    "date": "2019-11-07"
+}, {
+    "title": "React Helmet",
+    "description": "用来管理文档头，可以直接在组件中更改文档头（比如title ）",
+    "author": "孙海燕",
+    "date": "2019-11-07"
+}, {
+    "title": "Tampermonkey",
+    "description": "油猴一个chrome插件, 是一个插件管理器。安装到chrome上后可以通过https://greasyfork.org/zh-CN网站安装各种有趣、实用的插件。比如重定向搜索，可以帮你自动去除百度搜狗谷歌的广告，让你直接找到你想要。百度文库免费下载粘贴，音乐免费下载，视频去广告等等，破解百度网盘下载限制。怎嘛爽怎嘛来",
+    "author": "田梓轩",
+    "date": "2019-11-07"
+}, {
+    "title": "uuid",
+    "description": "可以生成分布式系统唯一的识别信息，使用最高的两种其中v1（基于当前时间戳和mac地址）和v4（随机数）如果是希望给定字符串返回唯一的uuid使用v3，v5",
+    "author": "田梓轩",
+    "date": "2019-11-08"
+}, {
+    "title": "javascript-state-machine",
+    "description": "可以用来实现设计模式-状态模式的一个库，算是一个状态机，根据不同的状态做不同行为并进行一个状态切换 Overflow相关的内容，管理查看Gists相关内容，可以说一个主流技术平台聚合工作台",
+    "author": "孙海燕",
+    "date": "2019-11-08"
+}, {
+    "title": "Evergreen",
+    "description": "更为强大的React UI 框架，有一套非常标准的UI设计语言帮你构建企业级的具有国际范设计风格的WEB应用，这个框架类似我们国内的ant.design ）",
+    "author": "吴迪",
+    "date": "2019-11-08"
+}, {
+    "title": "Unstated",
+    "description": "一个新的状态管理类库 unstated.js：简单易用/合理。和之前的 state 管理库思路完全不同，这个unstated主打 local state（不是全局store，一个小改动导致整棵树 rerender），多个 local state 之间也可以共享， 兼具了redux的易用性与flux的合理性，令人耳目一新；unstated完全就是为React设计的，“足够React”，让你感觉不到在用第三方组件",
+    "author": "林喆",
+    "date": "2019-11-11"
+}, {
+    "title": "React Hooks",
+    "description": "在新版的react中提供了一系列的新钩子函数，提供了复用有状态组件新模式（useState）有状态组件不用写class（在一定程度上解决了this绑定问题）,提供了函数组件的生命周期的执行方案（useEffect）,在react16.8.1推出了新的useReducer提供了可以代替redux存储数据的解决方案",
+    "author": "田梓轩",
+    "date": "2019-11-13"
+}, {
+    "title": "url-minified-loader",
+    "description": "url-minified-loader结合url-loader 利用imagemin 在构建时利用imagemin下面的plugins动态将图片文件压缩，然后根据limits是否生成base64，如果压缩后图片大于limit，就返回压缩后的图片，进入fallback",
+    "author": "林喆",
+    "date": "2019-11-13"
+}, {
+    "title": "react-live",
+    "description": "react 在线编辑预览组件的一个工具（demo: https://react-live.netlify.com/）",
+    "author": "孙海燕",
+    "date": "2019-11-13"
+}, {
+    "title": "Reakit",
+    "description": "使用这个框架能让你快速搭建漂亮的React UI 交互站点。",
+    "author": "吴迪",
+    "date": "2019-11-13"
+}, {
+    "title": "rax",
+    "description": "write once run anywhere 基于Weex来实现多端的运行（ios，android，小程序，）",
+    "author": "田梓轩",
+    "date": "2019-11-14"
+}, {
+    "title": "boardgame.io",
+    "description": "BOARDGAME.IO是 Google 开源的一个游戏框架，旨在允许游戏作者将游戏规则从本质上转化为一系列简单的函数，这些函数用于描述当一个指定动作发生时游戏的状态变化，框架负责处理表述性状态传递。 无需再手动编写任何网络或后端代码",
+    "author": "林喆",
+    "date": "2019-11-15"
+}, {
+    "title": "Swup",
+    "description": "一款适合初学者的框架，方便灵活易用，让你能快速制作专业级的页面转场动画效果",
+    "author": "吴迪",
+    "date": "2019-11-15"
+}, {
+    "title": "reac-native-web",
+    "description": "可以将react-native编写的代码编译转换成面向web端的代码。目前已经支持部分react-native自带的组件",
+    "author": "孙海燕",
+    "date": "2019-11-15"
+}, {
+    "title": "faceswap",
+    "description": "FaceSwap是一个Python程序，它可以在多种操作系统（包括Windows，Linux和MacOS）上运行。FaceSwap的作用就是使用深度学习来识别和交换图片和视频中的人脸的工具",
+    "author": "林喆",
+    "date": "2019-11-21"
+}, {
+    "title": "le5le-topology",
+    "description": "le5le-topology是一款开源、易扩展、方便集成的在线绘图（微服务架构图、网络拓扑图、流程图、活动图、时序图、类图、动画等）的软件项目。基于 typescript + canvas 实现的开源在线绘图的引擎 Topology。采用引擎 + 图形库中间件的思路能够方便、快速的扩展、集成到前端项目。",
+    "author": "林喆",
+    "date": "2019-11-21"
+}, {
+    "title": "umi",
+    "description": " 可插件化构建的企业级react应用框架。",
+    "author": "孙海燕",
+    "date": "2019-11-21"
+}, {
+    "title": "ApexCharts",
+    "description": "ApexCharts.JS 是一个现代化 JavaScript 图表库，用于使用简单的 API 构建交互式图表和可视化，功能十分强大。方便你将图表嵌入到你的Vue、React项目中。",
+    "author": "吴迪",
+    "date": "2019-11-21"
+}, {
+    "title": "indexedDB",
+    "description": "IndexedDB就是浏览器提供的本地数据库，不属于关系型数据库，使用键值对存储，支持事务。是一种浏览器浏览器储存大量数据的方法。",
+    "author": "田梓轩",
+    "date": "2019-11-22"
+}, {
+    "title": "RSUITE",
+    "description": "React Suite 是一套 React 组件库，为后台产品而生。由 HYPERS 前端团队与 UX 团队打造，主要服务于公司大数据产品线。经历了三次大的版本更新后，累积了大量的组件和丰富的功能。并支持在线定制个性化主题，更重要的是有中文版，方便我们学习使用。",
+    "author": "吴迪",
+    "date": "2019-11-22"
+}, {
+    "title": "react-syntax-highlighter",
+    "description": "支持react的代码高亮展示组件。",
+    "author": "孙海燕",
+    "date": "2019-11-22"
+}, {
+    "title": "qier-player",
+    "description": "一款基于 React 的轻量级在线视频播放器组件，界面简洁、操作流畅具有视频播放器的基础功能。方便你在项目中轻松添加播放器组件，实现视频播放功能。",
+    "author": "林喆",
+    "date": "2019-11-28"
+}, {
+    "title": "Nzh",
+    "description": "适用于需要转换阿拉伯数字与中文数字的场景。",
+    "author": "林喆",
+    "date": "2019-11-29"
+}, {
+    "title": "lambdatest",
+    "description": "一款在线自动化测试云端平台，号称在2000多个真实浏览器和设备进行测试，可以根据你的测试需求进行深度定制，并形成相关记录，方便团队的协作，帮你发现跨平台不同浏览器版本的各种问题。",
+    "author": "吴迪",
+    "date": "2019-11-29"
+}, {
+    "title": "YCWebView",
+    "description": "基于腾讯x5开源库，提高webView开发效率，大概要节约你百分之六十的时间成本。该案例支持处理js的交互逻辑且无耦合、同时暴露进度条加载进度、可以监听异常error状态、支持视频播放并且可以全频、支持加载word，xls，ppt，pdf，txt等文件文档、发短信、打电话、发邮件、打开文件操作上传图片、唤起原生App、x5库为最新版本，功能强大。",
+    "author": "林喆",
+    "date": "2019-12-05"
+}, {
+    "title": "Puppeteer Recorder",
+    "description": "Puppeteer 是一个Node库，它提供了一个高级API来控制DevTools协议上的Chrome或Chromium，常用于爬虫、自动化测试等，你在浏览器手动完成的大多数事情都可以使用它来完成",
+    "author": "吴迪",
+    "date": "2019-12-05"
+}, {
+    "title": "GCanvas",
+    "description": "GCanvas的定位是遵循w3c标准的跨平台的轻量级图形渲染引擎,应用场景小游戏，智能电子标签，移动端的首页头版动画，基于GCanvas实现的服务端渲染Sketch文件，AR场景的应用。",
+    "author": "田梓轩",
+    "date": "2019-12-06"
+}, {
+    "title": "React DnD",
+    "description": "ReactDnD 能帮助你打造复杂的拖放界面，同时又能帮你将组件分开。不像其他拖放工具库，ReactDnD是在现代HTML5拖放API的基础上开发的。",
+    "author": "林喆",
+    "date": "2019-12-06"
+}, {
+    "title": "一些关于程序员的定律法则",
+    "description": "最近github上”定律合集“项目火了，里面包含了一些定律、原则和模式的解释，应用哪些原则和定律，主要取决于你在做哪方面的工作，项目链接：https://github.com/dwmkerr/hacker-laws",
+    "author": "田梓轩",
+    "date": "2019-12-07"
+}]

@@ -1,0 +1,35 @@
+@import '../../base/variable.less';
+
+.yh-fw-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: rgba(0, 0, 0, 0.8);
+    .yh-fw-title {
+        display: flex;
+        flex: 1;
+        .yh-fw-logo {
+            height: 24px;
+        }
+    }
+    .yh-fw-navigation {
+        display: flex;
+        .yh-fw-nav-item {
+            color: #fff;
+            margin-left: 10px;
+            a {
+                padding: 10px;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 3px;
+                &:hover{
+                    background: rgba(0, 0, 0, 0.6);
+                }
+                &.yh-fw-nav-item-active {
+                    background: fade(@primaryColor, 95%);
+                }
+            }
+        }
+    }
+}

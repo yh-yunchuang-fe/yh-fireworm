@@ -14,7 +14,7 @@ const dbUrl = process.env.DB_URL;
 console.log(dbUrl)
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
-    // useUnifiedTopol: true
+    useCreateIndex: true
 });
 const connection = mongoose.connection;
 connection.once('open', () => {
