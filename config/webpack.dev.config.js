@@ -1,32 +1,25 @@
 const path = require('path')
 const webpack = require('webpack')
 const webpackMerge = require('webpack-merge')
-const getBaseConfig = require('./webpack.base.config')
+const webpackBaseConfig = require('./webpack.base.config')
 
-function getDevConfig() {
+module.exports = webpackMerge(webpackBaseConfig, {
 
-    const webpackBaseConfig = getBaseConfig()
+    mode: 'development',
 
-    return webpackMerge(webpackBaseConfig, {
+    devtool: '#source-map',
 
-        mode: 'development',
+    optimization: {
+        namedModules: true, //取代插件中的 new webpack.NamedModulesPlugin()
+        namedChunks: true
+    },
 
-        devtool: '#source-map',
-
-        optimization: {
-            namedModules: true, //取代插件中的 new webpack.NamedModulesPlugin()
-            namedChunks: true
-        },
-
-        plugins: [
-            new webpack.HotModuleReplacementPlugin()
-        ],
-        devServer: {
-            contentBase: path.join(__dirname, 'dist'),
-            compress: true,
-            port: 4000
-        }
-    })
-}
-
-module.exports = getDevConfig()
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ],
+    devServer: {
+        contentBase: path.join(__dirname, '../dist'),
+        compress: true,
+        port: 4000
+    }
+})

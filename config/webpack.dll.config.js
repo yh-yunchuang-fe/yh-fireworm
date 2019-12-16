@@ -14,7 +14,6 @@ module.exports = {
             'react-dom',
             'react-router-dom',
             'prop-types',
-            'react-fastclick',
             'classnames',
             'react-addons-css-transition-group',
             'react-transition-group'
@@ -28,7 +27,7 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, '../dist'),
-        filename: 'lib/[name]_[hash:4].dll.js',
+        filename: 'libs/[name]_[hash:4].dll.js',
         library: '[name]_[hash:4]'
     },
 
@@ -49,7 +48,7 @@ module.exports = {
     plugins: [
         new webpack.DllPlugin({
             context: __dirname,
-            path: path.join(__dirname, '../dist/lib', '[name]-manifest.json'),
+            path: path.join(__dirname, '../dist/libs', '[name]-manifest.json'),
             name: '[name]_[hash:4]'
         })
     ]
