@@ -1,3 +1,8 @@
+
+export function isType(target, type) {
+    return Object.prototype.toString.apply(target) === `[object ${type}]`
+}
+
 export function copy(){
     window.getSelection().removeAllRanges()
     let copyDOM = document.querySelector('#code-view')

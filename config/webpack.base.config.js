@@ -95,7 +95,7 @@ module.exports = {
                 options: {
                     limit: 8192,
                     publicPath: '/assets/img',
-                    outputPath: '/assets/img',
+                    outputPath: 'assets/img',
                     name: `[name].[hash:4].[ext]`
                 }
             },
@@ -105,7 +105,7 @@ module.exports = {
                 options: {
                     limit: 8192,
                     publicPath: '/assets/font',
-                    outputPath: '/assets/font',
+                    outputPath: 'assets/font',
                     name: `[name].[hash:4].[ext]`
                 }
             },
@@ -114,7 +114,7 @@ module.exports = {
                 loader: 'file-loader',
                 options: {
                     publicPath: '/assets/audio',
-                    outputPath: '/assets/audio',
+                    outputPath: 'assets/audio',
                     name: `[name].[hash:4].[ext]`
                 }
             }
