@@ -1,9 +1,8 @@
 ## 萤火虫
 
-### 简介
 萤火虫主要包含三部分     
 一、团队成员每周的知识库分享     
-二、react组件库cedar文档
+二、react组件库cedar文档     
 三、react-native组件库gingko文档
 
 
