@@ -1,5 +1,5 @@
 {
-  "name": "yh-terms",
+  "name": "yh-fireworm",
   "version": "1.0.0",
   "description": "yh-terms-frontend",
   "main": "index.js",
@@ -12,14 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@123.59.47.88:web/yh-terms.git"
+    "url": "https://github.com/yh-yunchuang-fe/yh-fireworm.git"
   },
   "keywords": [
     "yh",
-    "terms",
-    "frontend"
+    "fireworm",
+    "react",
+    "react-native",
+    "component"
   ],
-  "author": "yh-front",
+  "author": "yh-front-rn",
   "license": "ISC",
   "dependencies": {
     "antd": "^3.26.3",
