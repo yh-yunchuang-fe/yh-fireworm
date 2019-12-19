@@ -53,7 +53,7 @@ module.exports = {
     },
 
     output: {
-        path: resolve('dist/'),
+        path: resolve('/'),
         publicPath: '',
         filename: `js/[name].[hash:4].js`,
         chunkFilename: `js/[name].chunk.js`
@@ -123,7 +123,7 @@ module.exports = {
 
     plugins: [
         new CleanWebpackPlugin({
-            cleanOnceBeforeBuildPatterns: ['dist/libs']
+            cleanOnceBeforeBuildPatterns: ['libs']
         }),
         new MiniCssExtractPlugin({
             filename: `css/[name].[hash:4].css`,

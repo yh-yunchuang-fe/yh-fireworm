@@ -26,19 +26,19 @@ module.exports = webpackMerge(webpackBaseConfig, {
     plugins: [
         new webpack.DllReferencePlugin({
             context: __dirname,
-            manifest: require('../dist/libs/react-manifest.json')
+            manifest: require('../libs/react-manifest.json')
         }),
         new webpack.DllReferencePlugin({
             context: __dirname,
-            manifest: require('../dist/libs/common-manifest.json')
+            manifest: require('../libs/common-manifest.json')
         }),
         new HtmlWebpackIncludeAssetsPlugin({
-            assets: [{ path: 'libs', glob: '*.dll.js', globPath: 'dist/libs/' }],
+            assets: [{ path: 'libs', glob: '*.dll.js', globPath: 'libs/' }],
             append: false
         })
     ],
     devServer: {
-        contentBase: path.join(__dirname, '../dist'),
+        contentBase: path.join(__dirname, './'),
         compress: true,
         port: 4000
     }
