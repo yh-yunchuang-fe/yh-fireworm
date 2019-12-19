@@ -7,7 +7,7 @@
     "dev:start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build:start": "NODE_ENV=production ASSET_PATH=\/yh-fireworm webpack-dev-server --config config/webpack.prod.config.js --bail",
     "dll": "webpack --config config/webpack.dll.config.js",
-    "build": "NODE_ENV=production ASSET_PATH=\/yh-fireworm webpack --config config/webpack.prod.config.js --bail ",
+    "build": "NODE_ENV=production ASSET_PATH=\/yh-fireworm\/ webpack --config config/webpack.prod.config.js --bail ",
     "prod": "npm run dll && npm run build"
   },
   "repository": {
