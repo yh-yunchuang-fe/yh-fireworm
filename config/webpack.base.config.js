@@ -123,7 +123,7 @@ module.exports = {
 
     plugins: [
         new CleanWebpackPlugin({
-            cleanOnceBeforeBuildPatterns: ['libs']
+            cleanOnceBeforeBuildPatterns: ['!libs']
         }),
         new MiniCssExtractPlugin({
             filename: `css/[name].[hash:4].css`,
