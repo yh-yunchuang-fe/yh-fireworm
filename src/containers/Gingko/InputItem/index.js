@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/InputItem.gif'
 export default class InputItemComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -56,7 +56,7 @@ export default class InputItemComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='输入框' src={require('../../../assets/gingko/InputItem.gif')} />
+        return <img className='yh-mobile-container' alt='输入框' src={imgUrl} />
     }
 
     renderCodeContent() {

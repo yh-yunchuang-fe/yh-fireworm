@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/popup.gif'
 export default class PopupComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -46,7 +46,7 @@ export default class PopupComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='弹窗' src={require('../../../assets/gingko/popup.gif')} />
+        return <img className='yh-mobile-container' alt='弹窗' src={imgUrl} />
     }
 
     renderCodeContent() {

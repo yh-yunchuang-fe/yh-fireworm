@@ -1,6 +1,8 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl1 from '../../../assets/gingko/icon1.png'
+import imgUrl2 from '../../../assets/gingko/icon2.png'
+import imgUrl3 from '../../../assets/gingko/icon2.png'
 export default class IconComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -32,9 +34,9 @@ export default class IconComponent extends ContentPage {
 
     renderCodeReviewContent() {
         return <div style={{display: 'flex',  justifyContent: 'space-around'}}>
-            <img className='yh-mobile-container' alt='icon展示' src={require('../../../assets/gingko/icon1.png')} />
-            <img className='yh-mobile-container' alt='icon展示' src={require('../../../assets/gingko/icon2.png')} />
-            <img className='yh-mobile-container' alt='icon展示' src={require('../../../assets/gingko/icon2.png')} />
+            <img className='yh-mobile-container' alt='icon展示' src={imgUrl1} />
+            <img className='yh-mobile-container' alt='icon展示' src={imgUrl2} />
+            <img className='yh-mobile-container' alt='icon展示' src={imgUrl3} />
         </div>
     }
 

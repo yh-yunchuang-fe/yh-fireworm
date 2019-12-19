@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/dialog.gif'
 export default class DialogComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -56,7 +56,7 @@ export default class DialogComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='询问框' src={require('../../../assets/gingko/dialog.gif')} />
+        return <img className='yh-mobile-container' alt='询问框' src={imgUrl} />
     }
 
     renderCodeContent() {

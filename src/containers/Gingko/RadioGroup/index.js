@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/radioGroup.gif'
 export default class RadioGroupComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -21,7 +21,7 @@ export default class RadioGroupComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='单选' src={require('../../../assets/gingko/radioGroup.gif')} />
+        return <img className='yh-mobile-container' alt='单选' src={imgUrl} />
     }
 
     renderCodeContent() {

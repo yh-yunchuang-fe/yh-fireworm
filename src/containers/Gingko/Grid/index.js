@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/grid.png'
 export default class GridComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -41,7 +41,7 @@ export default class GridComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='宫格' src={require('../../../assets/gingko/grid.png')} />
+        return <img className='yh-mobile-container' alt='宫格' src={imgUrl} />
     }
 
     renderCodeContent() {

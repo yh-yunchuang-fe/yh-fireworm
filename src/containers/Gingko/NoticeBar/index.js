@@ -6,7 +6,7 @@
  */
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/noticeBar.png'
 export default class NoticeBarComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -48,7 +48,7 @@ export default class NoticeBarComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='导航栏' src={require('../../../assets/gingko/noticeBar.png')} />
+        return <img className='yh-mobile-container' alt='导航栏' src={imgUrl} />
     }
 
     renderCodeContent() {

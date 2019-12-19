@@ -1,7 +1,7 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
 import './index.less'
-
+import imgUrl from '../../../assets/cedar/swipeAction.gif'
 export default class SwipeActionComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -42,7 +42,7 @@ export default class SwipeActionComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='滑动操作' src={require('../../../assets/cedar/swipeAction.gif')} />
+        return <img className='yh-mobile-container' alt='滑动操作' src={imgUrl} />
     }
 
     renderCodeContent() {

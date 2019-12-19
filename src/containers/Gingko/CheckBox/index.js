@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/checkbox.gif'
 export default class CheckboxComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -51,7 +51,7 @@ export default class CheckboxComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='多选框' src={require('../../../assets/gingko/checkbox.gif')} />
+        return <img className='yh-mobile-container' alt='多选框' src={imgUrl} />
     }
 
     renderCodeContent() {

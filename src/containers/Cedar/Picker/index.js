@@ -2,6 +2,7 @@ import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
 import { Picker } from 'yh-cedar-ui'
 import { BASIC_TYPE_STRING, BASIC_TYPE_BOOL, BASIC_TYPE_FUN, BASIC_TYPE_ARRAY } from '../../../config/type.config'
+import imUrl from '../../../assets/cedar/picker.gif'
 export default class PickerComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -115,7 +116,7 @@ export default class PickerComponent extends ContentPage {
                     { okValue ? JSON.stringify(okValue) : '点击展示' }
                 </div>
                 <div>该组件是移动端组件请切换到移动端！</div>
-                <img src={require('../../../assets/cedar/picker.gif')} alt="logo" style={{height: 650, width: 300}}/>
+                <img src={imUrl} alt="logo" style={{height: 650, width: 300}}/>
                 <Picker
                     visible={visible}
                     onClose={()=>{

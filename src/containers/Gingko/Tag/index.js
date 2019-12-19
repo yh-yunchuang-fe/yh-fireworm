@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/tag.gif'
 export default class TagComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -51,7 +51,7 @@ export default class TagComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='标签' src={require('../../../assets/gingko/tag.gif')} />
+        return <img className='yh-mobile-container' alt='标签' src={imgUrl} />
     }
 
     renderCodeContent() {

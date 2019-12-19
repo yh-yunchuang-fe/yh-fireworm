@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/button.png'
 export default class ButtonComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -66,7 +66,7 @@ export default class ButtonComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='按钮' src={require('../../../assets/gingko/button.png')} />
+        return <img className='yh-mobile-container' alt='按钮' src={imgUrl} />
     }
 
     renderCodeContent() {

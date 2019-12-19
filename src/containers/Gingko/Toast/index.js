@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/toast.gif'
 export default class ToastComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -41,7 +41,7 @@ export default class ToastComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='提示' src={require('../../../assets/gingko/toast.gif')} />
+        return <img className='yh-mobile-container' alt='提示' src={imgUrl} />
     }
 
     renderCodeContent() {

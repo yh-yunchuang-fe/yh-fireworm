@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/modal.gif'
 export default class ModalComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -61,7 +61,7 @@ export default class ModalComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='蒙层' src={require('../../../assets/gingko/modal.gif')} />
+        return <img className='yh-mobile-container' alt='蒙层' src={imgUrl} />
     }
 
     renderCodeContent() {

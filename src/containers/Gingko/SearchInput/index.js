@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/searchInput.gif'
 export default class SearchInputComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -51,7 +51,7 @@ export default class SearchInputComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='搜索框' src={require('../../../assets/gingko/searchInput.gif')} />
+        return <img className='yh-mobile-container' alt='搜索框' src={imgUrl} />
     }
 
     renderCodeContent() {

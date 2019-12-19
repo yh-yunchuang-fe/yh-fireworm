@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/codeInputGroup.gif'
 export default class CodeInputGroupComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -41,7 +41,7 @@ export default class CodeInputGroupComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='短信验证码' src={require('../../../assets/gingko/codeInputGroup.gif')} />
+        return <img className='yh-mobile-container' alt='短信验证码' src={imgUrl} />
     }
 
     renderCodeContent() {

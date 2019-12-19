@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/card.png'
 export default class CardComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -21,7 +21,7 @@ export default class CardComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='卡片' src={require('../../../assets/gingko/card.png')} />
+        return <img className='yh-mobile-container' alt='卡片' src={imgUrl} />
     }
 
     renderCodeContent() {

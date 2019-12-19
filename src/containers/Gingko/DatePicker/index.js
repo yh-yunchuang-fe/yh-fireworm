@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/datePicker.gif'
 export default class DatePickerComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -66,7 +66,7 @@ export default class DatePickerComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='日期选择' src={require('../../../assets/gingko/datePicker.gif')} />
+        return <img className='yh-mobile-container' alt='日期选择' src={imgUrl} />
     }
 
     renderCodeContent() {

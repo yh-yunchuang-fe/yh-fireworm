@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/badge.png'
 export default class ResultComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -81,7 +81,7 @@ export default class ResultComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='角标' src={require('../../../assets/gingko/badge.png')} />
+        return <img className='yh-mobile-container' alt='角标' src={imgUrl} />
     }
 
     renderCodeContent() {

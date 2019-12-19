@@ -6,7 +6,7 @@
  */
 import React from 'react'
 import ContentPage from '../../Common/ContentPage/'
-
+import imgUrl from '../../../assets/gingko/picker.gif'
 export default class PickerComponent extends ContentPage {
     constructor(props) {
         super(props)
@@ -92,7 +92,7 @@ export default class PickerComponent extends ContentPage {
     }
 
     renderCodeReviewContent() {
-        return <img className='yh-mobile-container' alt='导航栏' src={require('../../../assets/gingko/picker.gif')} />
+        return <img className='yh-mobile-container' alt='导航栏' src={imgUrl} />
     }
 
     renderCodeContent() {
