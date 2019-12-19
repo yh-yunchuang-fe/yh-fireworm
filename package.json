@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev:start": "webpack-dev-server --config config/webpack.dev.config.js",
-    "build:start": "webpack-dev-server --config config/webpack.prod.config.js",
+    "build:start": "NODE_ENV=production ASSET_PATH=\/yh-fireworm webpack-dev-server --config config/webpack.prod.config.js --bail",
     "dll": "webpack --config config/webpack.dll.config.js",
-    "build": "webpack --config config/webpack.prod.config.js",
+    "build": "NODE_ENV=production ASSET_PATH=yh-fireworm webpack --config config/webpack.prod.config.js --bail ",
     "prod": "npm run dll && npm run build"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "react-dom": "^16.12.0",
     "react-hot-loader": "^4.12.18",
     "react-router-dom": "^5.1.2",
-    "react-syntax-highlighter": "^12.0.2",
+    "react-syntax-highlighter": "^12.2.1",
     "yh-cedar-ui": "git+https://github.com/yh-yunchuang-fe/yh-cedar-ui.git"
   },
   "devDependencies": {

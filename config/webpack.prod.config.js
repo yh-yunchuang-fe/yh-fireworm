@@ -6,7 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 const HtmlWebpackIncludeAssetsPlugin = require('html-webpack-include-assets-plugin')
 
 module.exports = webpackMerge(webpackBaseConfig, {
-    mode: 'production',
+    mode: 'development',
 
     devtool: false,
 
@@ -38,8 +38,8 @@ module.exports = webpackMerge(webpackBaseConfig, {
         })
     ],
     devServer: {
-        contentBase: path.join(__dirname, './'),
         compress: true,
+        hot: true,
         port: 4000
     }
 })

@@ -9,6 +9,7 @@ const resolve = function (dir) {
 }
 
 const devMode = process.env.NODE_ENV === 'development'
+const ASSET_PATH = process.env.ASSET_PATH || '/';
 
 const getCssLoader = () => {
     let cssLoader = [
@@ -54,7 +55,7 @@ module.exports = {
 
     output: {
         path: resolve('/'),
-        publicPath: '',
+        publicPath: ASSET_PATH,
         filename: `js/[name].[hash:4].js`,
         chunkFilename: `js/[name].chunk.js`
     },
@@ -94,7 +95,6 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     limit: 8192,
-                    publicPath: '/assets/img',
                     outputPath: 'assets/img',
                     name: `[name].[hash:4].[ext]`
                 }
@@ -104,7 +104,6 @@ module.exports = {
                 loader: 'file-loader',
                 options: {
                     limit: 8192,
-                    publicPath: '/assets/font',
                     outputPath: 'assets/font',
                     name: `[name].[hash:4].[ext]`
                 }
@@ -113,7 +112,6 @@ module.exports = {
                 test: /\.(ogg|mp3|wav|mpe?g)$/i,
                 loader: 'file-loader',
                 options: {
-                    publicPath: '/assets/audio',
                     outputPath: 'assets/audio',
                     name: `[name].[hash:4].[ext]`
                 }
